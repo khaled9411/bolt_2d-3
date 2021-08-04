@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1893448595, guid: a040fb66244a7f54289914d98ea4ef7d, type: 3}
+  m_Name: sound
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"graph":{"variables":{"collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[{"key":"input","label":null,"summary":null,"hideLabel":true}],"controlOutputDefinitions":[{"key":"output","label":null,"summary":null,"hideLabel":true}],"valueInputDefinitions":[{"hasDefaultValue":true,"defaultValue":{"$content":"playersound","$type":"System.String"},"_type":"System.String","key":"name","label":null,"summary":null,"hideLabel":false},{"hasDefaultValue":true,"defaultValue":null,"_type":"UnityEngine.AudioClip","key":"clip","label":null,"summary":null,"hideLabel":false}],"valueOutputDefinitions":[],"title":null,"summary":null,"pan":{"x":42.98365,"y":42.03715},"zoom":1.0,"elements":[{"argumentCount":1,"defaultValues":{"name":{"$content":"","$type":"System.String"},"target":null},"position":{"x":-57.0,"y":-76.0},"guid":"c6b36278-e495-40b6-8558-f0e6ce0490c9","$version":"A","$type":"Bolt.TriggerCustomEvent","$id":"13"},{"defaultValues":{},"position":{"x":198.0,"y":-29.0},"guid":"1abf3e9d-d707-44ab-98bb-3f780d188265","$version":"A","$type":"Bolt.GraphOutput","$id":"15"},{"defaultValues":{},"position":{"x":-389.0,"y":-49.0},"guid":"46d18dcd-040c-419b-b750-1b5ac72d212d","$version":"A","$type":"Bolt.GraphInput","$id":"17"},{"specifyFallback":false,"kind":"Scene","defaultValues":{"name":{"$content":"soundmanager","$type":"System.String"}},"position":{"x":-266.0,"y":68.0},"guid":"61a6ce47-da3d-4c0c-930d-b84e8fe339a5","$version":"A","$type":"Bolt.GetVariable","$id":"19"},{"sourceUnit":{"$ref":"13"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"output","guid":"cc869f1d-aa90-4d1e-ae8f-4e5149064b47","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"input","destinationUnit":{"$ref":"13"},"destinationKey":"enter","guid":"212e2a32-c604-45db-bbe3-c535b804a022","$type":"Bolt.ControlConnection"},{"sourceUnit":{"$ref":"19"},"sourceKey":"value","destinationUnit":{"$ref":"13"},"destinationKey":"target","guid":"d41b3c2b-f4d7-431b-851a-9a7a5ef67f33","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"name","destinationUnit":{"$ref":"13"},"destinationKey":"name","guid":"dfd6abc1-4ba7-4ab8-b7ff-2292fbfb6d67","$type":"Bolt.ValueConnection"},{"sourceUnit":{"$ref":"17"},"sourceKey":"clip","destinationUnit":{"$ref":"13"},"destinationKey":"argument_0","guid":"c2eeacd4-57ad-4879-b806-4f482f569140","$type":"Bolt.ValueConnection"}],"$version":"A"}}'
+    _objectReferences: []
